@@ -10,4 +10,5 @@
 
 @interface FactBook : NSObject
 @property (strong,nonatomic) NSArray * facts;
+- (NSString *)randomFact;
 @end

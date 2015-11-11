@@ -26,8 +26,9 @@
 }
 - (IBAction)showFunFAct {
     
-    int number = [self getRandomNumberBetween:0 to:9];
-    self.funFactLabel.text = [self.factBook.facts objectAtIndex:number];
+    //int number = [self getRandomNumberBetween:0 to:9];
+    //self.funFactLabel.text = [self.factBook.facts objectAtIndex:number];
+    self.funFactLabel.text = [self.factBook randomFact];
     
     self.funFactLabel.textColor = [UIColor redColor];
 }
