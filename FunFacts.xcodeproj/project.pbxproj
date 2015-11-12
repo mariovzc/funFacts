@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3B5C7B81BF4E73700A38030 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B5C7B71BF4E73700A38030 /* ColorWheel.m */; };
 		B3C1F35C1BF2A31C0062A51A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C1F35B1BF2A31C0062A51A /* main.m */; };
 		B3C1F35F1BF2A31C0062A51A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C1F35E1BF2A31C0062A51A /* AppDelegate.m */; };
 		B3C1F3621BF2A31C0062A51A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C1F3611BF2A31C0062A51A /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3B5C7B61BF4E73700A38030 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		B3B5C7B71BF4E73700A38030 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		B3C1F3571BF2A31C0062A51A /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C1F35B1BF2A31C0062A51A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3C1F35D1BF2A31C0062A51A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				B3C1F3681BF2A31C0062A51A /* LaunchScreen.storyboard */,
 				B3C1F36B1BF2A31C0062A51A /* Info.plist */,
 				B3C1F35A1BF2A31C0062A51A /* Supporting Files */,
+				B3B5C7B61BF4E73700A38030 /* ColorWheel.h */,
+				B3B5C7B71BF4E73700A38030 /* ColorWheel.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				B3C1F35F1BF2A31C0062A51A /* AppDelegate.m in Sources */,
 				B3C1F38F1BF398D10062A51A /* FactBook.m in Sources */,
 				B3C1F35C1BF2A31C0062A51A /* main.m in Sources */,
+				B3B5C7B81BF4E73700A38030 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +516,7 @@
 				B3C1F3861BF2A31D0062A51A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C1F3871BF2A31D0062A51A /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				B3C1F3891BF2A31D0062A51A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C1F38A1BF2A31D0062A51A /* Build configuration list for PBXNativeTarget "FunFactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +534,7 @@
 				B3C1F38C1BF2A31D0062A51A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

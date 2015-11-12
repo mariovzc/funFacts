@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FactBook.h"
+#import "ColorWheel.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.factBook = [[FactBook alloc]init];
+    self.colorWheel = [[ColorWheel alloc]init];
+    UIColor * randomColor = [self.colorWheel randomColor];
+    self.funFactLabel.text = [self.factBook randomFact];
+    self.funFactButton.tintColor = randomColor;
+    self.view.backgroundColor = randomColor;
+    
     self.funFactLabel.text = [self.factBook.facts objectAtIndex:0];
 }
 
@@ -28,9 +35,12 @@
     
     //int number = [self getRandomNumberBetween:0 to:9];
     //self.funFactLabel.text = [self.factBook.facts objectAtIndex:number];
+    UIColor * randomColor = [self.colorWheel randomColor];
     self.funFactLabel.text = [self.factBook randomFact];
+    self.funFactButton.tintColor = randomColor;
+    self.view.backgroundColor = randomColor;
     
-    self.funFactLabel.textColor = [UIColor redColor];
+    //self.funFactLabel.textColor = [UIColor redColor];
 }
 
 -(int)getRandomNumberBetween:(int)from to:(int)to {
